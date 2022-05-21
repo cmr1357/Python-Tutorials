@@ -1,0 +1,5 @@
+tuple1=(("123","144"),("1","2"))
+print("Original Tuple Values")
+print(tuple1)
+tuple2=tuple((int(i[0]),int(i[1]))for i in tuple1)
+print(tuple2)
